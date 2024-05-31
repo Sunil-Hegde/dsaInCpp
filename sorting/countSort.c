@@ -35,7 +35,6 @@ void countSort(int *array, int size){
             i++;
         }
     }
-    printArray(array, size);
 }
 
 
@@ -53,5 +52,6 @@ int main(){
 
     printf("After sorting using Insertion Sort:\n");
     countSort(array, n); 
+    printArray(array, n);
     return 0;
 }
